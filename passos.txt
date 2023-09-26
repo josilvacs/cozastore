@@ -1,0 +1,21 @@
+git config --global user.name "Joany Camily da Silva"
+git config --global user.email joanycamily23@gmail.com
+cd desktop
+git clone...
+//abrir a pasta 
+
+dotnet new gitignore
+
+
+dotnet new sln --name CozaStore
+dotnet sln add CozaStore\CozaStore.csproj
+cd CozaStore
+
+//pacotes
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.22
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.22
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 6.0.2
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 6.0.22
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 6.0.16
+
+//criar pasta pra documetação e templete (colocar zipado e normal)
