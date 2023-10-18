@@ -28,6 +28,8 @@ public class Categoria
     [ForeignKey("CategoriaPaiId")]
     public Categoria CategoriaPai { get; set; }
     
+    public ICollection<ProdutoCategoria> Produtos { get; set; }
+
 }
 
 
