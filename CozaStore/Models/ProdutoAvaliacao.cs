@@ -12,7 +12,7 @@ public class ProdutoAvaliacao
     public Produto Produto { get; set; }
 
     [Key, Column(Order = 2)]
-    public byte UsuarioId { get; set; }
+    public string UsuarioId { get; set; }
     [ForeignKey("UsuarioId")]
     public Usuario Usuario { get; set; }
 

@@ -25,9 +25,4 @@ public class Usuario
     public string Foto { get; set; }
     public ICollection<ProdutoAvaliacao> Avaliacoes { get; set; }
     public ICollection<ListaDesejo> ListaDesejos { get; set; }
-
-
-
-
-
 }
